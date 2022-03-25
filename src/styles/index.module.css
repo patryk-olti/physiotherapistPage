@@ -10,18 +10,26 @@
 }
 
 .content__flexColumn{
+    width: 90%;
     text-align: center;
-    padding: 20px;
+    padding: 1rem;
     z-index: 2;
 }
 
 .content__flexColumnStart{
     text-align: left;
-    padding: 20px;
+    padding: 1rem;
     z-index: 2;
 }
 
 .content__flexRow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 10;
+}
+
+.content{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -34,43 +42,43 @@ section{
     align-items: center;
 
     width: 50%;
-    padding: 10px;
+    padding: 0.5rem;
 }
 
 .title{
+    font-size: 2.5rem;
     z-index: 20;
 }
 
 .textArea{
     text-align: justify;
     line-height: 150%;
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .imageBox{
     position: absolute;
-    top: 0;
+    bottom: 0;
     right: 0;
-
     z-index: 1;
 }
 
 .imageBox img{
-    height: 100vh;
+    height: 500px;
     object-fit: cover;
 }
 
 .icon{
     display: block;
-    font-size: 30px;
-    margin: 10px;
+    font-size: 50px;
+    margin: 0.5rem;
     color: black;
 }
 
 .iconLarge{
     display: block;
-    font-size: 70px;
-    margin: 10px;
+    font-size: 3rem;
+    margin: 0.5rem;
     color: black;
 }
 
@@ -79,7 +87,7 @@ section{
 }
 
 .imgMedium{
-    height: 350px;
+    height: 14rem;
     border: 2px solid black;
 }
 
@@ -90,4 +98,60 @@ section{
     color: white;
     font-weight: bold;
     letter-spacing: 2px;
+}
+
+/* ------- RWD -------- */
+
+@media all and (max-width: 1600px) {
+    html{ font-size: 22px; }
+    .icon{ font-size: 50px; }
+    .textArea{ font-size: 24px; }
+    .imageBox img{ height: 700px; }    
+}
+  
+@media all and (max-width: 1366px) {
+    html{ font-size: 20px; }
+    .icon{ font-size: 46px; }
+    .textArea{ font-size: 22px; }
+    .imageBox img{ height: 700px; }    
+}
+  
+@media all and (max-width: 1200px) {
+    html { font-size: 18px; }
+    section{ width: 50%; }
+    .content{ flex-direction: row; }
+    .icon{ font-size: 44px; }
+    .textArea{ font-size: 22px; }
+    .imageBox img{ height: 700px; }    
+}
+  
+@media all and (max-width: 1024px) {
+    html{ font-size: 16px; }
+    section{ width: 80%; }
+    .content{ flex-direction: column; }
+    .icon{ font-size: 40px; }
+    .textArea{ font-size: 20px; }
+    .imageBox img{ height: 600px; }    
+}
+  
+@media all and (max-width: 800px) {
+    html{ font-size: 12px; }
+    section{ width: 90%; }
+    .icon{ font-size: 40px; }
+    .textArea{ font-size: 18px; }
+    .imageBox img{ height: 600px; }    
+}
+  
+@media all and (max-width: 768px) {
+    html{ font-size: 10px; }
+    .icon{ font-size: 38px; }
+    .textArea{ font-size: 16px; }
+    .imageBox img{ height: 550px; }    
+}
+  
+@media all and (max-width: 480px) {
+    html{ font-size: 8px; }
+    .icon{ font-size: 34px; }
+    .textArea{ font-size: 14px; }
+    .imageBox img{ height: 500px; }    
 }

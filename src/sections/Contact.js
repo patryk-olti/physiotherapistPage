@@ -27,7 +27,7 @@ const Contact = () => {
     return(
         <div className={styles.container} id='contact'>
             <div className={styles.content__flexColumn} ref={sectionRef}>
-                <div className={styles.content__flexRow}>
+                <div className={styles.content}>
                     <div className={custom.tile} >
                         <a href="#" className={styles.iconLarge}> <FontAwesomeIcon icon={faLocationDot} /> </a>
                         <h1> Wrocław </h1>

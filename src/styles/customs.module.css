@@ -24,7 +24,7 @@
     transform: translate(-50%, -50%);
     overflow: hidden;
     z-index: 10;
-    padding: 20px;
+    padding: 1rem;
 
     border-radius: 5px;
 }
@@ -48,16 +48,16 @@
 
 .animation__text{
     margin-left: 20px;
-    font-size: 30px;
+    font-size: 2.5rem;
 }
 
 .animation__button{
     background-color: brown;
     border: 1px solid black;
     border-radius: 5px;
-    font-size: 30px;
-    padding: 5px 30px;
-    margin-top: 40px;
+    font-size: 4rem;
+    padding: 0.4rem 2rem;
+    margin-top: 2rem;
     cursor: pointer;
     transition: 0.5;
     z-index: 10;
@@ -78,8 +78,10 @@
     position: absolute;
     top: 0;
     left: 0;
+    height: 100%;
     width: 100%;
     z-index: 1;
+    object-fit: cover;
 }
 
 /* MENU */
@@ -94,18 +96,18 @@
     align-items: center;
 
     height: 100vh;
-    width: 50px;
+    width: 3rem;
 
     z-index: 20;
 }
 
 .menu__tile{
     height: 60px;
-    width: 10px;
-    margin-top: 15px;
+    width: 20px;
+    margin-top: 20px;
 
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 2rem;
     box-shadow: 2px 2px black;
     background-color: white;
     cursor: pointer;
@@ -113,5 +115,56 @@
 
 /* CONTACT */
 .tile{
-    padding: 20px;
+    padding: 2rem;
+}
+
+/* ------- RWD -------- */
+
+@media all and (max-width: 1600px) {
+    .menu__tile{
+        height: 60px;
+        width: 20px;
+    }
+}
+  
+@media all and (max-width: 1366px) {
+    .menu__tile{
+        height: 60px;
+        width: 20px;
+    }
+}
+  
+@media all and (max-width: 1200px) {
+    .menu__tile{
+        height: 50px;
+        width: 17px;
+    }
+}
+  
+@media all and (max-width: 1024px) {
+    .menu__tile{
+        height: 50px;
+        width: 15px;
+    }
+}
+  
+@media all and (max-width: 800px) {
+    .menu__tile{
+        height: 45px;
+        width: 10px;
+    }
+}
+  
+@media all and (max-width: 768px) {
+    .menu__tile{
+        height: 45px;
+        width: 10px;
+    }
+}
+  
+@media all and (max-width: 480px) {
+    .menu__tile{
+        height: 45px;
+        width: 10px;
+    }
 }

@@ -60,8 +60,6 @@ const StartAnim = ({ handleClick }) => {
 
                     <div className={custom.animation__contentBackground} id='background'></div>
                 </div>
-
-                
                 
                 <img 
                     src={imgSalon} 
