@@ -67,6 +67,13 @@ section{
     color: black;
 }
 
+.iconLarge{
+    display: block;
+    font-size: 70px;
+    margin: 10px;
+    color: black;
+}
+
 .icon:hover{
     color: brown;
 }
@@ -75,3 +82,5 @@ section{
     height: 350px;
     border: 2px solid black;
 }
+
+

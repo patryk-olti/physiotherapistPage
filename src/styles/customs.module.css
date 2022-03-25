@@ -100,7 +100,7 @@
 }
 
 .menu__tile{
-    height: 50px;
+    height: 60px;
     width: 10px;
     margin-top: 15px;
 
@@ -109,4 +109,9 @@
     box-shadow: 2px 2px black;
     background-color: white;
     cursor: pointer;
+}
+
+/* CONTACT */
+.tile{
+    padding: 20px;
 }
