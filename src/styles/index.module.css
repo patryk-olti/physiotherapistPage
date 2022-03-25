@@ -89,6 +89,19 @@ section{
 .imgMedium{
     height: 14rem;
     border: 2px solid black;
+    display: block;
+}
+
+.imgMediumRow{
+    height: 14rem;
+    border: 2px solid black;
+    display: block;
+}
+
+.imgMediumColumn{
+    height: 14rem;
+    border: 2px solid black;
+    display: block;
 }
 
 .footer{
@@ -120,6 +133,8 @@ section{
     html { font-size: 18px; }
     section{ width: 50%; }
     .content{ flex-direction: row; }
+    .imgMediumRow{ display: block; }
+    .imgMediumColumn{ display: none; }
     .icon{ font-size: 44px; }
     .textArea{ font-size: 22px; }
     .imageBox img{ height: 700px; }    
@@ -129,6 +144,8 @@ section{
     html{ font-size: 16px; }
     section{ width: 80%; }
     .content{ flex-direction: column; }
+    .imgMediumRow{ display: none; }
+    .imgMediumColumn{ display: block; }
     .icon{ font-size: 40px; }
     .textArea{ font-size: 20px; }
     .imageBox img{ height: 600px; }    
