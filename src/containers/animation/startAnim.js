@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 import gsap from 'gsap';
 
@@ -33,7 +33,7 @@ const StartAnim = ({ handleClick }) => {
           .fromTo( '#square', {alpha: 0 }, {alpha: 1, duration: 0.2})
           .fromTo( '#text__slide', {x: '+=95%' }, {x: 0, duration: 1})
           .fromTo( '#button', {alpha: 0 }, {alpha: 1, duration: 1, delay: 1})
-          .fromTo( '#background', {alpha: 0 }, {alpha: 1, duration: 1, delay: 1})
+          .fromTo( '#background', {alpha: 0 }, {alpha: 1, duration: 1})
           .fromTo( '#image', {alpha: 0 }, {alpha: 1, duration: 1})
     }, [])
 

@@ -15,10 +15,15 @@
     z-index: 2;
 }
 
+.content__flexColumnStart{
+    text-align: left;
+    padding: 20px;
+    z-index: 2;
+}
+
 .content__flexRow{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     z-index: 10;
 }
@@ -49,4 +54,15 @@ section{
 .imageBox img{
     height: 100vh;
     object-fit: cover;
+}
+
+.icon{
+    display: block;
+    font-size: 30px;
+    margin: 10px;
+    color: black;
+}
+
+.icon:hover{
+    color: brown;
 }
