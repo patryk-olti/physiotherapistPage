@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import Start from "./sections/Start";
 import Offerts from "./sections/Offerts";
+import Contact from "./sections/Contact";
 
 import StartAnim from "./containers/animation/startAnim";
 
@@ -16,6 +17,7 @@ function App() {
       <>
         <Start />
         <Offerts />
+        <Contact />
       </>
       :
       <StartAnim handleClick={setActive} />
