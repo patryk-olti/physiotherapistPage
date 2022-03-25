@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "cf890f28f37d5c59bb51",
-    "url": "/physiotherapistPage/static/css/main.3a05d20d.chunk.css"
+    "revision": "15f128f9d3a101c14cfb",
+    "url": "/physiotherapistPage/static/css/main.00cd0aec.chunk.css"
   },
   {
-    "revision": "cf890f28f37d5c59bb51",
-    "url": "/physiotherapistPage/static/js/main.cf890f28.chunk.js"
+    "revision": "15f128f9d3a101c14cfb",
+    "url": "/physiotherapistPage/static/js/main.15f128f9.chunk.js"
   },
   {
-    "revision": "845415a64ad85c2ab603",
-    "url": "/physiotherapistPage/static/js/1.845415a6.chunk.js"
+    "revision": "bb7ac21c9e7a43b7213a",
+    "url": "/physiotherapistPage/static/js/1.bb7ac21c.chunk.js"
   },
   {
     "revision": "71a617584aca29969036",
@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/physiotherapistPage/static/media/salon.0c7f5272.jpg"
   },
   {
-    "revision": "9b9507da0342a1b6ac6ccaba1b3fd9df",
+    "revision": "2ba90a2d62f487f2b0a8d1d8d5d067b1",
     "url": "/physiotherapistPage/index.html"
   }
 ];
