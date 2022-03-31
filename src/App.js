@@ -9,7 +9,7 @@ import StartAnim from "./containers/animation/startAnim";
 
 function App() {
 
-  const [ active, setActive ] = useState(true);
+  const [ active, setActive ] = useState(false);
 
   return (
     <div className="App">

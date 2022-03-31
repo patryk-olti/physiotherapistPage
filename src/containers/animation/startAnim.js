@@ -24,7 +24,10 @@ const StartAnim = ({ handleClick }) => {
         tl.fromTo( '#box1', {y: '-=100%' }, {y: 0, duration: 1})
           .fromTo( '#box2', {y: '+=100%' }, {y: 0, duration: 1, delay: '-0.5'})
           .fromTo( '#box3', {y: '-=100%' }, {y: 0, duration: 1, delay: '-0.5'})
-          .fromTo( '#text__content', {alpha: 0 }, {alpha: 1, duration: 1, delay: '0.5'})
+          .fromTo( '#image', {alpha: 0 }, {alpha: 1, duration: 1})
+          .fromTo( '#background', {alpha: 0 }, {alpha: 1, duration: 1})
+
+          .fromTo( '#text__content', {alpha: 0 }, {alpha: 1, duration: 1})
           .fromTo( '#square', {alpha: 1 }, {alpha: 0, duration: 0.2})
           .fromTo( '#square', {alpha: 0 }, {alpha: 1, duration: 0.2})
           .fromTo( '#square', {alpha: 1 }, {alpha: 0, duration: 0.2})
@@ -33,8 +36,6 @@ const StartAnim = ({ handleClick }) => {
           .fromTo( '#square', {alpha: 0 }, {alpha: 1, duration: 0.2})
           .fromTo( '#text__slide', {x: '+=95%' }, {x: 0, duration: 1})
           .fromTo( '#button', {alpha: 0 }, {alpha: 1, duration: 1, delay: 1})
-          .fromTo( '#background', {alpha: 0 }, {alpha: 1, duration: 1})
-          .fromTo( '#image', {alpha: 0 }, {alpha: 1, duration: 1})
     }, [])
 
     return(
