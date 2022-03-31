@@ -10,6 +10,10 @@
 }
 
 .content__flexColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     width: 90%;
     text-align: center;
     padding: 1rem;
@@ -32,6 +36,23 @@
 .content{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.contentRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+.contentColumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     z-index: 10;
 }
@@ -92,18 +113,6 @@ section{
     display: block;
 }
 
-.imgMediumRow{
-    height: 14rem;
-    border: 2px solid black;
-    display: block;
-}
-
-.imgMediumColumn{
-    height: 14rem;
-    border: 2px solid black;
-    display: block;
-}
-
 .footer{
     padding: 5px;
     text-align: center;
@@ -114,40 +123,57 @@ section{
 }
 
 /* ------- RWD -------- */
+@media all and (min-width: 1600px) {
+    html{ font-size: 24px; }
+    .icon{ font-size: 50px; }
+    .textArea{ font-size: 24px; }
+
+    .imageBox img{ height: 900px; }  
+    .content{ flex-direction: row; }
+    .contentRow{ display: flex; }
+    .contentColumn{ display: none; } 
+}
 
 @media all and (max-width: 1600px) {
     html{ font-size: 22px; }
     .icon{ font-size: 50px; }
     .textArea{ font-size: 24px; }
+
     .imageBox img{ height: 700px; }    
+    .content{ flex-direction: row; }
+    .contentRow{ display: flex; }
+    .contentColumn{ display: none; } 
 }
   
 @media all and (max-width: 1366px) {
     html{ font-size: 20px; }
     .icon{ font-size: 46px; }
     .textArea{ font-size: 22px; }
+    
     .imageBox img{ height: 700px; }    
 }
   
 @media all and (max-width: 1200px) {
     html { font-size: 18px; }
-    section{ width: 50%; }
-    .content{ flex-direction: row; }
-    .imgMediumRow{ display: block; }
-    .imgMediumColumn{ display: none; }
     .icon{ font-size: 44px; }
     .textArea{ font-size: 22px; }
+
+    section{ width: 50%; }
+    .content{ flex-direction: row; }
+    .contentRow{ display: flex; }
+    .contentColumn{ display: none; }
     .imageBox img{ height: 700px; }    
 }
   
 @media all and (max-width: 1024px) {
     html{ font-size: 16px; }
-    section{ width: 80%; }
-    .content{ flex-direction: column; }
-    .imgMediumRow{ display: none; }
-    .imgMediumColumn{ display: block; }
     .icon{ font-size: 40px; }
     .textArea{ font-size: 20px; }
+
+    section{ width: 80%; }
+    .content{ flex-direction: column; }
+    .contentRow{ display: none; }
+    .contentColumn{ display: flex; }
     .imageBox img{ height: 600px; }    
 }
   

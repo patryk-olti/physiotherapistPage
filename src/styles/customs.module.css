@@ -119,6 +119,12 @@
 }
 
 /* ------- RWD -------- */
+@media all and (min-width: 1600px) {
+    .menu__tile{
+        height: 60px;
+        width: 20px;
+    }
+}
 
 @media all and (max-width: 1600px) {
     .menu__tile{
