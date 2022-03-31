@@ -7,7 +7,8 @@ import index from '../styles/customs.module.css';
 const menuList = [
     { id: 1, name: 'home' },
     { id: 2, name: 'offerts' },
-    { id: 3, name: 'contact' }
+    { id: 3, name: 'scores' },
+    { id: 4, name: 'contact' }
 ];
 
 const Menu = ({ handleRef }) => {
