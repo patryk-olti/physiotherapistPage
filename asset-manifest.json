@@ -1,7 +1,7 @@
 {
   "main.css": "/physiotherapistPage/static/css/main.cc7c0c02.chunk.css",
-  "main.js": "/physiotherapistPage/static/js/main.476859fe.chunk.js",
-  "main.js.map": "/physiotherapistPage/static/js/main.476859fe.chunk.js.map",
+  "main.js": "/physiotherapistPage/static/js/main.73334d6e.chunk.js",
+  "main.js.map": "/physiotherapistPage/static/js/main.73334d6e.chunk.js.map",
   "static/js/1.f80a769a.chunk.js": "/physiotherapistPage/static/js/1.f80a769a.chunk.js",
   "static/js/1.f80a769a.chunk.js.map": "/physiotherapistPage/static/js/1.f80a769a.chunk.js.map",
   "runtime~main.js": "/physiotherapistPage/static/js/runtime~main.71a61758.js",
@@ -11,6 +11,6 @@
   "static/media/salon.jpg": "/physiotherapistPage/static/media/salon.0c7f5272.jpg",
   "static/css/main.cc7c0c02.chunk.css.map": "/physiotherapistPage/static/css/main.cc7c0c02.chunk.css.map",
   "index.html": "/physiotherapistPage/index.html",
-  "precache-manifest.99e9aaeabcf0f6b753c155401056cac1.js": "/physiotherapistPage/precache-manifest.99e9aaeabcf0f6b753c155401056cac1.js",
+  "precache-manifest.66915c4c188d4ada56a3bef9fa9e6d65.js": "/physiotherapistPage/precache-manifest.66915c4c188d4ada56a3bef9fa9e6d65.js",
   "service-worker.js": "/physiotherapistPage/service-worker.js"
 }

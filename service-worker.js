@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/physiotherapistPage/precache-manifest.99e9aaeabcf0f6b753c155401056cac1.js"
+  "/physiotherapistPage/precache-manifest.66915c4c188d4ada56a3bef9fa9e6d65.js"
 );
 
 workbox.clientsClaim();
